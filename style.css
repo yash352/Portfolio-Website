@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+body {
+  font-family: 'Oxygen', sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: -webkit-gradient(linear, left top, right top, from(#434343), to(black));
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  width: 45px;
+  margin: 0 8px;
+  border-radius: 50%;
+}
+
+a:link a:visited {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  text-align: center;
+  border-bottom: 0.5px solid #fff;
+  outline: none;
+}
+
+.modal-content {
+  padding: 5px 22px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#434343), to(black));
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.modal-icons {
+  border-top: 0.5px solid #fff;
+  height: 50px;
+  width: 100%;
+  margin: 0 20px;
+}
+
+.version {
+  color: #dadada;
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
+}
+
+.flex {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  width: 120px;
+}
+
+.flex:hover {
+  opacity: 0.4;
+}
+
+.flex .fas, .fab {
+  font-size: 40px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
