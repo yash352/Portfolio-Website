@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Yash Launcher",
+    "description": "Quick Launch My Launcher",
+    "version": "1.0.0",
+     "icons": {"128": "Yash.png"},
+     "browser_action": {
+         "default_icon": "Yash.png",
+         "default_popup": "Yash.html"
+     },
+     "permissions": ["activeTab"]
+}
